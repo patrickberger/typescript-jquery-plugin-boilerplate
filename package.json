@@ -1,0 +1,17 @@
+{
+  "name": "typescript-jquery-plugin-boilerplate",
+  "version": "0.1.0",
+  "description": "Template for jQuery Plugins developed in Typescript",
+  "author": "Patrick Berger",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-uglify": "^0.8.0",
+    "grunt-jsbeautifier": "^0.2.10",
+    "grunt-typescript": "^0.6.1",
+    "typescript": "^1.4.1"
+  }
+}

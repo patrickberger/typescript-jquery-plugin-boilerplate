@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Typescript jQuery Plugin Test</title>
+    </head>
+    <body>
+
+        <div><a id="test">Test</a></div>
+        <p>A click on above "Test" should raise an alert.</p>
+
+        <script src="js/vendor/jquery-2.1.3.min.js"></script>
+        <script src="js/plugin.js"></script>
+        <script>
+            $(function () {
+                $('#test').pluginName();
+            });
+        </script>
+    </body>
+</html>

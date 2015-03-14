@@ -1,0 +1,22 @@
+{
+    "spaceUnits": 4,
+    "typescript": {
+        "target": "ES5",
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "projects": {
+            "multifile": {
+                "sources" : [
+                    "src/plugin/multifile/declarations/**/*.d.ts",
+                    "src/plugin/multifile/ts/**/*.ts"
+                ]
+            },
+            "simple": {
+                "sources" : [
+                    "src/plugin/simple/declarations/**/*.d.ts",
+                    "src/plugin/simple/ts/**/*.ts"
+                ]
+            }
+        }
+    }
+}
